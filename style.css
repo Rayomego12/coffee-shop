@@ -1,0 +1,44 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    /* Define color variables */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #ff4d4d;
+    --secondary-color: #ff9999;
+    --light-pink-color: #ffe6e6;
+    --medium-gray-color: #cccccc;
+
+    /*font size*/
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+
+    /*font weight*/
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /*border radius*/
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    /*site max width*/
+    --site-max-width: 1200px;
+}
+header{
+    background:var(--primary-color);
+}
