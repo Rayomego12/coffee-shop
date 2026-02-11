@@ -11,9 +11,9 @@
     /* Define color variables */
     --white-color: #fff;
     --dark-color: #252525;
-    --primary-color: #ff4d4d;
-    --secondary-color: #ff9999;
-    --light-pink-color: #ffe6e6;
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --light-pink-color: #faf4f5;
     --medium-gray-color: #cccccc;
 
     /*font size*/
@@ -39,6 +39,46 @@
     /*site max width*/
     --site-max-width: 1200px;
 }
-header{
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border: none;
+    cursor: pointer;
+}
+header {
     background:var(--primary-color);
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-logo .logo-text {
+    color: var(--white-color);
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-bold);
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link {
+    padding: 10px 10px;
+    background: var(--secondary-color);
+    font-size: var(--font-size-m);
+    color: var(--white-color);
+    border-radius: var(--border-radius-m);
 }
